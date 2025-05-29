@@ -1,0 +1,27 @@
+{
+  "name": "first-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "react": "^18",
+    "react-dom": "^18",
+    "next": "^15.3.1",
+    "next-auth": "^4.18.8"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "15.3.1",
+    "gray-matter": "^4.0.2",
+    "mongodb": "^3.6.4",
+    "react-markdown": "^5.0.3"
+  },
+  "browser": {
+    "fs": false
+  }
+}
